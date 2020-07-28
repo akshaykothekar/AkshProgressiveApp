@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @author      Akshmagento Team (support@Akshmagento.com)
+ * @copyright   Copyright (c) 2020 Akshmagento (http://www.Akshmagento.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @category    Akshmagento
+ * @package     Akshmagento_AkshProgressiveApp
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="manifest" src="Akshmagento_AkshProgressiveApp/manifest.json" />
+    </head>
+    <referenceContainer name="after.body.start">
+        <block class="Akshmagento\AkshProgressiveApp\Block\Base\Js\Main" name="head.pwa" before="-" as="akshprogressiveapp" template="Akshmagento_AkshProgressiveApp/main.phtml"/>
+    </referenceContainer>
+</page>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @author      Akshmagento Team (support@Akshmagento.com)
+ * @copyright   Copyright (c) 2020 Akshmagento (http://www.Akshmagento.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @category    Akshmagento
+ * @package     Akshmagento_AkshProgressiveApp
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Akshmagento_AkshProgressiveApp::pwa" title="Aksh Progressive App" module="Akshmagento_AkshProgressiveApp" resource="Akshmagento_AkshProgressiveApp::pwa" sortOrder="20"/>
+        <add id="Akshmagento_AkshProgressiveApp::notification" title="Manage Notifications" module="Akshmagento_AkshProgressiveApp" sortOrder="30" action="akshprogressiveapp/notification"
+             parent="Akshmagento_AkshProgressiveApp::pwa" resource="Akshmagento_AkshProgressiveApp::notification"/>
+        <add id="Akshmagento_AkshProgressiveApp::settings" title="Settings" module="Akshmagento_AkshProgressiveApp" sortOrder="40" action="adminhtml/system_config/edit/section/akshprogressiveapp"
+             parent="Akshmagento_AkshProgressiveApp::pwa" resource="Akshmagento_AkshProgressiveApp::settings"/>
+    </menu>
+</config>

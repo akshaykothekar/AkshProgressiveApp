@@ -1,0 +1,10 @@
+{
+  "name": "Akshmagento AkshProgressiveApp",
+  "short_name": "Aksh: Magento PWA",
+  "description": "Akshay Kothekar Copyright",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0fd6c5",
+  "background_color": "#1bcf36",
+  "gcm_sender_id": "103953800507"
+}
